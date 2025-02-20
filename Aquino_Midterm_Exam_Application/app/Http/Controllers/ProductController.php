@@ -21,6 +21,6 @@ class ProductController extends Controller
             ['title' => 'Akira', 'genre' => 'Sci-Fi/Action', 'price' => 11.99],
         ];
 
-        return view('products', compact('products'));
+        return view('blade', compact('products'));
     }
 }
